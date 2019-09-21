@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px; 
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+    margin-left: 80px;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #7F7F7F;
+}
+.menu ul li:last-child{
+	margin-right: 0px;
+}
+.banner{
+	width: 90%;
+	margin: auto;
+}
+.banner img{
+	width: 100%;
+	margin-top: 90px;
+}
+.photodairy-wrapper{
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px; 	
+}
+.photodairy-wrapper h4{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #CAC9C7;
+	margin-bottom: 23px;
+}
+.photodairy-wrapper h1{
+	color: #000000;
+	margin-bottom: 23px;
+}
+.photodairy-wrapper p{
+	color: #000000;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.service-wrapper{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.service-one{
+	width: 47%;
+	margin-bottom: 40px;
+}
+.service-one img{
+	width: 100%;
+}
+.service-one h4{
+	color: #B0B1AC;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+.service-one h1{
+	color: #606060;
+	margin-bottom: 20px;
+}
+.service-one p{
+	color: #B1B1B1;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+
+.service-two{
+	width: 47%;
+	margin-bottom: 50px;
+}
+.service-two img{
+	width: 100%;
+}
+.service-two h4{
+	color: #B0B1AC;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+.service-two h1{
+	color: #606060;
+	margin-bottom: 20px;
+}
+.service-two p{
+	color: #B1B1B1;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.service-three{
+	width: 47%;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+.service-three img{
+	width: 100%;
+}
+.service-three h4{
+	color: #B0B1AC;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+.service-three h1{
+	color: #606060;
+	margin-bottom: 20px;
+}
+.service-three p{
+	color: #B1B1B1;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.service-four{
+	width: 47%;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+.service-four img{
+	width: 100%;
+}
+.service-four h4{
+	color: #B0B1AC;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+.service-four h1{
+	color: #606060;
+	margin-bottom: 20px;
+}
+.service-four p{
+	color: #B1B1B1;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.newsletter{
+	background-color: #F3F3F3;
+	min-height: 200px;
+	margin-bottom: 90px;
+}
+.news-content{
+	width: 40%;
+	margin: auto;
+	padding-top: 80px;
+
+}
+.news-content h1{
+	color: #2B2B2B;
+}
+.news-content input{
+	border: none;
+	background-color: #F3F3F3;
+	border-bottom: 2px solid black;
+	width: 360px;
+	outline: none;
+	min-height: 30px;
+}
+.service-wrapper-2{width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.service-1{
+	width: 47%;
+	margin-bottom: 40px;
+}
+.service-1 img{
+	width: 100%;
+}
+.service-1 h4{
+	color: #B0B1AC;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+.service-1 h1{
+	color: #606060;
+	margin-bottom: 20px;
+}
+.service-1 p{
+	color: #B1B1B1;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+
+.service-2{
+	width: 47%;
+	margin-bottom: 50px;
+}
+.service-2 img{
+	width: 100%;
+}
+.service-2 h4{
+	color: #B0B1AC;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+.service-2 h1{
+	color: #606060;
+	margin-bottom: 20px;
+}
+.service-2 p{
+	color: #B1B1B1;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.load-more{
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+}
+.load-more-btn{
+	text-decoration: none;
+	color: #8A8A8A;
+	border: solid 1px;
+	display: #FFFFFF;
+	font-size: 22px;
+	padding: 12px 24px;
+}
+footer{
+	min-height: 100px;
+	background-color: #F3F3F3;
+}
+.footer-wrapper{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.terms{
+	width: 30%;
+}
+.terms ul{
+	list-style: none;
+}
+.terms ul li{
+	float: left;
+	margin-right: 25px;
+}
+.social-icon{
+	width: 40%;
+}
+.social-icon ul{
+	list-style: none;
+	float: right;
+}
+.social-icon ul li{
+	float: left;
+	margin-left: 30px;
+	color: #373737;
+}
+.social-icon ul li a{}
+.social-icon ul li a i{
+	color: #373737;
+}
